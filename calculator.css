@@ -1,2 +1,34 @@
+.cal_box{
+    width: 500px;
+    height: 650px;
+    background: gray;
+    margin-left: 500px;
+    padding-top: 33px;
+}
+#text_sec{
+    width: 80%;
+    height: 65px;
+    background: white;
+    margin-left: 49px;
+    pointer-events:none;
+    font-size: 25px;
+    font-weight: bold;
+}
+.button_sec{
+    height: 53px;
+    width: 66px;
+    margin-left: 45px;
+    margin-top: 57px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.button_sec_clear{
 
+    height: 53px;
+    width: 66px;
+    margin-left: 45px;
+    margin-top: 57px;
+    font-size: 20px;
+    font-weight: bold;
+}
 
