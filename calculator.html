@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="calculator.css" rel="stylesheet">
+    <script src="calculator.js"></script>
+
+</head>
+<body>
+    <div class="main box">
+        <div class="cal_box">
+            <div>
+                <input type="text" id="text_sec">
+
+            </div>
+            <div >
+                <button onclick="display_sec_clear()" class="button_sec_clear">C</button>
+            </div>
+
+            <div >
+                
+                <button onclick="display_sec(7)" class="button_sec">7</button>
+                <button onclick="display_sec(8)" class="button_sec"> 8</button>
+                <button onclick="display_sec(9)" class="button_sec">9</button>
+                <button onclick="display_sec('*')" class="button_sec">*</button>
+               
+
+            </div>
+            <div >
+                
+                <button onclick="display_sec(6)" class="button_sec">6</button>
+                <button onclick="display_sec(5)" class="button_sec"> 5</button>
+                <button onclick="display_sec(4)" class="button_sec">4</button>
+                <button onclick="display_sec('-')" class="button_sec">-</button>
+               
+
+            </div>
+            <div >
+                
+                <button onclick="display_sec(1)" class="button_sec">1</button>
+                <button onclick="display_sec(2)" class="button_sec"> 2</button>
+                <button onclick="display_sec(3)" class="button_sec">3</button>
+                <button onclick="display_sec('+')" class="button_sec">+</button>
+               
+
+            </div>
+            <div >
+                
+                <button onclick="display_sec(0)" class="button_sec">0</button>
+                <button onclick="display_sec('.')" class="button_sec"> .</button>
+                <button onclick="display_sec_equal()" class="button_sec">=</button>
+                <button onclick="display_sec('/')" class="button_sec">/</button>
+               
+
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
